@@ -49,6 +49,10 @@ html {
   margin-left: 265px;
 }
 
+.delete-button:hover {
+  color: white;
+}
+
 p {
   margin: 0;
   width: 255px;
@@ -75,4 +79,8 @@ p {
   position: absolute;
   margin-left: -30px;
   margin-top: 10px;
+}
+
+#send-button:hover {
+  color: white
 }
