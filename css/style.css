@@ -1,12 +1,12 @@
 html {
-  font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
+  background: #1e1f22;
   display: flex;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #1e1f22;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
   overflow: hidden;
-  height: 100vh;
 }
 
 .chat-container {
@@ -52,7 +52,7 @@ html {
 p {
   margin: 0;
   width: 255px;
-  overflow-x: hidden;
+  overflow: hidden;
   position: absolute;
 }
 
