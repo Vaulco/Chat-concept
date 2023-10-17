@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .map((message, index) => `
         <div class="message">
           <p>${message}</p>
-          <i class="delete-button bx bx-trash" data-index="${index}" style=''></i>
+          <i class="delete-button bx bx-trash" data-index="${index}"></i>
         </div>`
       )
       .join("");

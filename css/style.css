@@ -10,14 +10,14 @@ html {
 }
 
 .chat-container {
-  width: 300px;
-  padding: 10px;
+  width: 18.75rem;
+  padding: 0.625rem;
   border-radius: 1rem;
   background: #313338;
 }
 
 #chat-messages {
-  height: 200px;
+  height: 12.5rem;
   overflow-y: scroll;
 }
 
@@ -27,60 +27,62 @@ html {
 
 .message {
   color: #bfc2c5;
-  padding: 6px;
-  border-radius: 10px;
+  padding: 0.375rem;
+  border-radius: 0.5rem;
   transition: 0.2s;
   margin-bottom: 5px;
   position: relative;
+}
+
+p {
+  margin: 0;
+  width: 16rem;
+  overflow: hidden;
+  position: absolute;
 }
 
 .message:hover {
   background: #2e3035;
 }
 
+.message:hover .delete-button {
+  opacity: 1;
+}
+
 .delete-button {
   color: #bfc2c5;
   cursor: pointer;
-  margin-left: 10000px;
+  margin-left: 16.5rem;
   position: relative;
-}
-
-.message:hover .delete-button {
-  margin-left: 265px;
+  transition: 0.5s;
+  opacity: 0;
 }
 
 .delete-button:hover {
   color: white;
 }
 
-p {
-  margin: 0;
-  width: 255px;
-  overflow: hidden;
-  position: absolute;
-}
-
 #message-input {
-  width: 93%;
-  padding: 10px;
+  width: 17.5rem;
+  padding: 0.625rem;
   background: #383a40;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
   outline: none;
   color: #bfc2c5;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 
 #send-button {
-  font-size: 18px;
+  font-size: 1.125rem;
   cursor: pointer;
   color: #bfc2c5;
   position: absolute;
-  margin-left: -30px;
-  margin-top: 10px;
+  margin-left: -1.875rem;
+  margin-top: 0.625rem;
 }
 
 #send-button:hover {
-  color: white
+  color: white;
 }
